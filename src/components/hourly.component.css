@@ -28,8 +28,8 @@
     height: 38px;
     margin: 4px 0;
 }
-/* Changed max-width from 768px to 1200px bc I want it all in one row. */
-@media only screen and (max-width: 1200px) {
+/* Changed max-width from 768px to 500px bc I want it all in one row. */
+@media only screen and (max-width: 500px) {
     .hourly {
         flex-direction: column;
     }

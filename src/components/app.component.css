@@ -19,7 +19,7 @@
 }
 /* All pixel values 6 and higher reduced by 2. */
 #root {
-    font-family: 'Times', serif;
+    font-family: 'Arial Narrow', Arial, sans-serif;
 /*    font-family: 'Muli', sans-serif; */
     font-size: 12px;
     color: var(--grey-dark);
@@ -78,8 +78,8 @@
     margin-right: 2px;
     opacity: .5;
 }
-/* Changed max-width from 768px to 1200px */
-@media only screen and (max-width: 1200px) {
+/* Changed max-width from 768px to 500px */
+@media only screen and (max-width: 500px) {
     .powered {
         max-width: 90px;
     }
