@@ -28,11 +28,11 @@
     display: inline-block;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
     border: solid 1px var(--grey-light);
-    padding: 14px;
+    padding: 6px;
 
     background-color: var(--white);
     box-sizing: border-box;
-    margin-top: 14px;
+    margin-top: 6px;
 
     text-align: left
 }
@@ -49,7 +49,7 @@
 
 .divider {
     border-bottom: solid 1px var(--grey-light);
-    margin: 14px -14px 14px -14px;
+    margin: 8px -8px 8px -8px;
 }
 
 .powered {
@@ -67,19 +67,19 @@
 }
 /* This was 4px originally. */
 .time {
-    margin-bottom: 4px;
+    margin-bottom: 2px;
 }
 
 .location {
-    margin-bottom: 14px;
+    margin-bottom: 10px;
 }
 
 .location-icon {
     margin-right: 2px;
     opacity: .5;
 }
-/* Changed max-width from 768px to 500px */
-@media only screen and (max-width: 500px) {
+/* Changed max-width from 768px to 400px */
+@media only screen and (max-width: 400px) {
     .powered {
         max-width: 90px;
     }

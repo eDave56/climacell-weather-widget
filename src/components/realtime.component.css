@@ -29,27 +29,27 @@
 /* was 66px */
 
 .realtime-icon {
-    width: 46px;
-    height: 46px;
+    width: 36px;
+    height: 36px;
     margin-left: auto;
 }
 /* was 50px */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 400px) {
     .realtime-temp {
-        font-size: 36px;
-        line-height: 36px;
+        font-size: 28px;
+        line-height: 28px;
     }
 
     .realtime-temp-degrees {
-        margin-right: 10px;
+        margin-right: 4px;
     }
 
     .realtime-icon {
-        width: 56px;
-        height: 56px;
+        width: 36px;
+        height: 36px;
     }
 
     .realtime-feels-like {
-        margin-right: 10px;
+        margin-right: 5px;
     }
 }
