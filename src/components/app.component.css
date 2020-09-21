@@ -17,10 +17,10 @@
     --cherry-red: #ec002d;
     --text-color: #4c555a;
 }
-//* All pixel values 6 and higher reduced by 2. *//
+/* All pixel values 6 and higher reduced by 2. */
 #root {
     font-family: 'Times', serif;
-//*    font-family: 'Muli', sans-serif; *//
+/*    font-family: 'Muli', sans-serif; */
     font-size: 12px;
     color: var(--grey-dark);
     border-radius: 6px;
@@ -65,7 +65,7 @@
 .powered-icon {
     margin-right: 2px;
 }
-//* This was 4px originally. *//
+/* This was 4px originally. */
 .time {
     margin-bottom: 4px;
 }
@@ -78,8 +78,8 @@
     margin-right: 2px;
     opacity: .5;
 }
-
-@media only screen and (max-width: 768px) {
+/* Changed max-width from 768px to 1200px */
+@media only screen and (max-width: 1200px) {
     .powered {
         max-width: 90px;
     }
