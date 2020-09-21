@@ -12,7 +12,7 @@ const useHourly = ({ apikey, lat, lon, start, end }) => {
             apikey,
             lat,
             lon,
-            unit_system: 'F',
+            unit_system: 'US',
             fields: 'precipitation,temp,feels_like,weather_code',
             start_time: start.toISOString(),
             end_time: end.toISOString()
@@ -33,7 +33,7 @@ const useRealtime = ({ apikey, lat, lon }) => {
             apikey,
             lat,
             lon,
-            unit_system: 'F',
+            unit_system: 'US',
             fields: 'precipitation,temp,feels_like,weather_code',
         }
     });
