@@ -4,14 +4,16 @@ import { Temp } from "./temp.component";
 import { WeatherIcon } from "./weather-icon.component";
 import { prettyPrintWeatherCode } from "../utilities";
 
+/* Should probably create function or include code to determine which system is used and have varible for degrees F/C. */
+
 function Realtime({ realtime }) {
     return (
         <div className="realtime">
             <div className="realtime-temp"><Temp value={realtime.temp.value} /></div>
-            <div className="realtime-temp-degrees">°C</div>
+            <div className="realtime-temp-degrees">°F</div>
             <div>
                 <div className="realtime-weather-code">{prettyPrintWeatherCode(realtime.weather_code.value)}</div>
-                <div className="realtime-feels-like">Feels Like <Temp value={realtime.feels_like.value} />°</div>
+                <div className="realtime-feels-like">Feels Like <Temp value={realtime.feels_like.value} />°F</div>
             </div>
             <div className="realtime-icon">
                 <WeatherIcon value={realtime.weather_code.value} />
