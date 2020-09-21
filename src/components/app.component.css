@@ -17,28 +17,29 @@
     --cherry-red: #ec002d;
     --text-color: #4c555a;
 }
-
+//* All pixel values 6 and higher reduced by 2. *//
 #root {
-    font-family: 'Muli', sans-serif;
-    font-size: 14px;
+    font-family: 'Times', serif;
+//*    font-family: 'Muli', sans-serif; *//
+    font-size: 12px;
     color: var(--grey-dark);
-    border-radius: 8px;
+    border-radius: 6px;
 
     display: inline-block;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
     border: solid 1px var(--grey-light);
-    padding: 16px;
+    padding: 14px;
 
     background-color: var(--white);
     box-sizing: border-box;
-    margin-top: 16px;
+    margin-top: 14px;
 
     text-align: left
 }
 
 .icon {
-    height: 14px;
-    width: 14px;
+    height: 12px;
+    width: 12px;
     vertical-align: middle;
 }
 
@@ -48,11 +49,11 @@
 
 .divider {
     border-bottom: solid 1px var(--grey-light);
-    margin: 16px -16px 16px -16px;
+    margin: 14px -14px 14px -14px;
 }
 
 .powered {
-    font-size: 14px;
+    font-size: 12px;
     float: right;
 }
 
@@ -64,13 +65,13 @@
 .powered-icon {
     margin-right: 2px;
 }
-
+//* This was 4px originally. *//
 .time {
     margin-bottom: 4px;
 }
 
 .location {
-    margin-bottom: 16px;
+    margin-bottom: 14px;
 }
 
 .location-icon {
